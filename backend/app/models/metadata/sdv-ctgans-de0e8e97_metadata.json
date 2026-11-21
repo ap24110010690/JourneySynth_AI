@@ -1,0 +1,58 @@
+{
+    "tables": {
+        "journeys": {
+            "columns": {
+                "customer_id": {
+                    "sdtype": "categorical"
+                },
+                "interaction_id": {
+                    "sdtype": "id",
+                    "regex_format": "INT-[0-9]{6}"
+                },
+                "session_id": {
+                    "sdtype": "categorical"
+                },
+                "channel": {
+                    "sdtype": "categorical"
+                },
+                "interaction_type": {
+                    "sdtype": "categorical"
+                },
+                "timestamp": {
+                    "sdtype": "datetime",
+                    "datetime_format": "%Y-%m-%d %H:%M:%S"
+                },
+                "product_category": {
+                    "sdtype": "categorical"
+                },
+                "device_type": {
+                    "sdtype": "categorical"
+                },
+                "location": {
+                    "sdtype": "categorical"
+                },
+                "campaign_source": {
+                    "sdtype": "categorical"
+                },
+                "interaction_duration": {
+                    "sdtype": "numerical"
+                },
+                "purchase_amount": {
+                    "sdtype": "numerical"
+                },
+                "conversion_status": {
+                    "sdtype": "categorical"
+                },
+                "customer_segment": {
+                    "sdtype": "categorical"
+                },
+                "journey_stage": {
+                    "sdtype": "categorical"
+                }
+            },
+            "primary_key": "interaction_id"
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V2"
+}

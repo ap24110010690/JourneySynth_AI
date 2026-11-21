@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+backend/venv/
+venv/
+.venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+credentials.json
+secrets.json
+
+# Build outputs and caches
+dist/
+build/
+.vite/
+*.pyc
+__pycache__/
+backend/**/__pycache__/
+.cache/
+
+# Databases and local runtime data
+*.db
+*.sqlite
+*.sqlite3
+backend/app/journeysynth.db
+backend/app/data/cleaned/
+backend/app/data/synthetic/
+backend/app/data/uploaded/
+backend/app/reports/
+
+# Archives and temporary files
+*.zip
+*.tar.gz
+*.tgz
+.DS_Store
+Thumbs.db
+*.log
+logs/
+.system_generated/

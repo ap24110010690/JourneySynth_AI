@@ -1,0 +1,6 @@
+{
+  "name": "JourneySynth AI",
+  "description": "Synthetic Omnichannel Customer Journey Generator powered by SDV, Pandas, SDMetrics, Scikit-learn, and FastAPI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
